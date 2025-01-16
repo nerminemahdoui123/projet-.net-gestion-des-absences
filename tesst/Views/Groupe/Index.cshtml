@@ -1,0 +1,123 @@
+﻿@model IEnumerable<tesst.Models.Groupe>
+
+<div class="container mt-5">
+    <!-- Titre de la page centré -->
+    <h1 class="text-center mb-4">Gestion des Groupes</h1>
+
+    <!-- Formulaire de création de groupe -->
+    <h2 class="text-center mb-4">Créer un Nouveau Groupe</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="NomGroupe">Nom du Groupe</label>
+            <input type="text" class="form-control" id="NomGroupe" name="NomGroupe" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Créer</button>
+    </form>
+
+    <hr>
+
+    <!-- Liste des groupes -->
+    <h3 class="text-center mb-4">Liste des Groupes Existants</h3>
+    <table class="table table-bordered mt-4">
+        <thead>
+            <tr>
+                <th>Nom du Groupe</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var groupe in Model)
+            {
+                <tr>
+                    <td>@groupe.NomGroupe</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Groupe", new { id = groupe.CodeGroupe })" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="@Url.Action("Delete", "Groupe", new { id = groupe.CodeGroupe })" class="btn btn-danger btn-sm">Supprimer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Style du titre principal */
+    h1, h2, h3 {
+        color: #343a40;
+        font-weight: bold;
+    }
+
+    /* Espacement autour des titres */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.8rem;
+    }
+
+    /* Style du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+
+    .btn-sm {
+        font-size: 1rem;
+        padding: 5px 10px;
+        margin-right: 10px;
+    }
+
+    /* Style des champs de saisie */
+    .form-control {
+        border-radius: 0.375rem;
+        box-shadow: none;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+
+    /* Ajout de marges et de bordures pour le formulaire */
+    form {
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Amélioration de l'apparence du tableau */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        table th, table td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        table a {
+            text-decoration: none;
+        }
+</style>

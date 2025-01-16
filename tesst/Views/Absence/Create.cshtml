@@ -1,0 +1,175 @@
+﻿@{
+    ViewData["Title"] = "Gestion des Absences";
+}
+
+<!-
+<div class="container mt-5">
+ 
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+    <h2 class="text-center mb-4">Ajouter une absence</h2>
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="DateJour">Date de l'absence</label>
+        <input type="date" name="dateJour" class="form-control" required />
+    </div>
+
+    <div class="form-group">
+        <label for="CodeMatiere">Matière</label>
+        <select name="codeMatiere" class="form-control" required>
+            <option value="">Sélectionnez une matière</option>
+            @foreach (var matiere in ViewBag.Matieres)
+            {
+                <option value="@matiere.CodeMatiere">@matiere.NomMatiere</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CodeEnseignant">Enseignant</label>
+        <select name="codeEnseignant" class="form-control" required>
+            <option value="">Sélectionnez un enseignant</option>
+            @foreach (var enseignant in ViewBag.Enseignants)
+            {
+                <option value="@enseignant.CodeEnseignant">@enseignant.Nom</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CodeClasse">Classe</label>
+        <select name="codeClasse" class="form-control" required>
+            <option value="">Sélectionnez une classe</option>
+            @foreach (var classe in ViewBag.Classes)
+            {
+                <option value="@classe.CodeClasse">@classe.NomClasse</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CodeEtudiant">Étudiant</label>
+        <select name="codeEtudiant" class="form-control" required>
+            <option value="">Sélectionnez un étudiant</option>
+            @foreach (var etudiant in ViewBag.Etudiants)
+            {
+                <option value="@etudiant.CodeEtudiant">@etudiant.Nom</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="CodeSeance">Séance</label>
+        <select name="codeSeance" class="form-control" required>
+            <option value="">Sélectionnez une séance</option>
+            @foreach (var seance in ViewBag.Seances)
+            {
+                <option value="@seance.CodeSeance">@seance.NomSeance</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Enregistrer l'absence</button>
+</form>
+
+<hr />
+
+<h2>Liste des absences</h2>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Matière</th>
+            <th>Enseignant</th>
+            <th>Classe</th>
+            <th>Étudiant(s)</th>
+            <th>Séance</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var ficheAbsence in ViewBag.Absences)
+        {
+            <tr>
+                <td>@ficheAbsence.DateJour.ToString("dd/MM/yyyy")</td>
+                <td>@ficheAbsence.Matiere.NomMatiere</td>
+                <td>@ficheAbsence.Enseignant.Nom</td>
+                <td>@ficheAbsence.Classe.NomClasse</td>
+                <td>
+                    @foreach (var ligne in ficheAbsence.LignesFicheAbsence)
+                    {
+                        <div>@ligne.Etudiant.Nom</div>
+                    }
+                </td>
+                <td>
+                    @foreach (var ligne in ficheAbsence.FichesAbsenceSeance)
+                    {
+                        <div>@ligne.Seance.NomSeance</div>
+                    }
+                </td>
+                <td>
+                    <!-- Bouton de suppression -->
+                    <a href="@Url.Action("Delete", "Absence", new { id = ficheAbsence.CodeFicheAbsence })" class="btn btn-danger btn-sm" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cette absence ?')">Supprimer</a>
+
+                </td>
+                   
+            </tr>
+        }
+    </tbody>
+</table>
+
+<style>
+    /* Style du titre principal */
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    /* Style des titres secondaires */
+    h2, h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: #007bff;
+    }
+
+    /* Espacement et bordure du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+    }
+
+    /* Amélioration de la présentation de la table */
+    .table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd;
+    }
+
+    /* Espacement entre les éléments de la table */
+    .table td, .table th {
+        padding: 12px;
+        text-align: center;
+    }
+
+    /* Bouton de suppression */
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+</style>

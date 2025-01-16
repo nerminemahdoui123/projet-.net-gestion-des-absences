@@ -1,0 +1,248 @@
+﻿@model tesst.Models.FicheAbsence
+
+@{
+    ViewBag.Title = "Absence Search";
+}
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <style>
+        /* Général */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Conteneur principal */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Titre principal */
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* Formulaire de recherche */
+        form {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+
+            form div {
+                flex: 1;
+                min-width: 200px;
+            }
+
+            form label {
+                display: block;
+                font-weight: bold;
+                margin-bottom: 5px;
+                color: #555;
+            }
+
+            form input, form select, form button {
+                width: 100%;
+                padding: 10px;
+                margin-top: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                font-size: 16px;
+            }
+
+            form button {
+                background-color: #007bff;
+                color: white;
+                cursor: pointer;
+                border: none;
+                transition: background-color 0.3s ease;
+            }
+
+                form button:hover {
+                    background-color: #0056b3;
+                }
+
+        /* Tableaux des absences */
+        table {
+            width: 100%;
+            margin-top: 30px;
+            border-collapse: collapse;
+        }
+
+            table th, table td {
+                padding: 10px;
+                text-align: left;
+                border: 1px solid #ddd;
+            }
+
+            table th {
+                background-color: #007bff;
+                color: white;
+            }
+
+            table tr:nth-child(even) {
+                background-color: #f9f9f9;
+            }
+
+            table tr:hover {
+                background-color: #f1f1f1;
+            }
+
+        /* Cellules de tableau */
+        td {
+            vertical-align: top;
+        }
+
+        /* Message si aucune absence trouvée */
+        p {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>recherche Absences</h2>
+
+        <form method="get" action="@Url.Action("Search", "Absence")">
+            <div>
+                <label for="codeClasse">Classe:</label>
+                <select name="codeClasse" id="codeClasse">
+                    <option value="">All</option>
+                    @foreach (var classe in ViewBag.Classes as List<tesst.Models.Classe>)
+                    {
+                        <option value="@classe.CodeClasse">@classe.NomClasse</option>
+                    }
+                </select>
+            </div>
+
+            <div>
+                <label for="nomEtudiant">Etudiant:</label>
+                <input type="text" name="nomEtudiant" id="nomEtudiant" placeholder="Nom d'étudiant" />
+            </div>
+
+            <div>
+                <label for="heureDebut">Heure de début:</label>
+                <input type="time" name="heureDebut" id="heureDebut" />
+            </div>
+
+            <div>
+                <label for="heureFin">Heure de fin:</label>
+                <input type="time" name="heureFin" id="heureFin" />
+            </div>
+
+            <button type="submit">Search</button>
+        </form>
+
+        <h3>Absences par matiére:</h3>
+        @if (ViewBag.Absences != null && ViewBag.Absences.Count > 0)
+        {
+            <table>
+                <thead>
+                    <tr>
+                        <th>Matière</th>
+                        <th>Enseignant</th>
+                        <th>Classe</th>
+                        <th>Étudiant</th>
+                        <th>Date</th>
+                        <th>Heure Début</th>
+                        <th>Heure Fin</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var ficheAbsence in ViewBag.Absences as List<tesst.Models.FicheAbsence>)
+                    {
+                        <tr>
+                            <td>@ficheAbsence.Matiere.NomMatiere</td>
+                            <td>@ficheAbsence.Enseignant.Nom</td>
+                            <td>@ficheAbsence.Classe.NomClasse</td>
+                            <td>
+                                @foreach (var ligne in ficheAbsence.LignesFicheAbsence)
+                                {
+                                    <span>@ligne.Etudiant.Nom</span>
+                                    <br />
+                                }
+                            </td>
+                            <td>@ficheAbsence.DateJour.ToString("d")</td> <!-- Format the Date -->
+                            <td>
+                                @foreach (var absenceSeance in ficheAbsence.FichesAbsenceSeance)
+                                {
+                                    <span>@absenceSeance.Seance.HeureDebut</span> <!-- Format the Time -->
+                                    <br />
+                                }
+                            </td>
+                            <td>
+                                @foreach (var absenceSeance in ficheAbsence.FichesAbsenceSeance)
+                                {
+                                    <span>@absenceSeance.Seance.HeureFin</span> <!-- Format the Time -->
+                                    <br />
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+        else
+        {
+            <p>No absences found for the selected filters.</p>
+        }
+    </div>
+    <h2>Nombre des absences par matière</h2>
+
+    @if (ViewBag.AbsencesParEtudiantEtMatiere != null && ViewBag.AbsencesParEtudiantEtMatiere.Count > 0)
+    {
+        <table>
+            <thead>
+                <tr>
+                    <th>Étudiant</th>
+                    <th>Matière</th>
+                    <th>Nombre d'Absences</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in ViewBag.AbsencesParEtudiantEtMatiere)
+                {
+                    <tr>
+                        <td>@item.Etudiant</td>
+                        <td>@item.Matiere</td>
+                        <td>
+                            @item.NombreAbsences
+                            <a href="@Url.Action("Absence", "Details", new { codeEtudiant = item.Etudiant, codeMatiere = item.Matiere })">Voir détails</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>Aucun résultat trouvé pour le comptage des absences par matière et étudiant.</p>
+    }
+
+
+    </table>
+
+ 
+
+</body>
+</html>

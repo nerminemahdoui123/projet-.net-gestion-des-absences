@@ -1,0 +1,124 @@
+﻿@{
+    ViewData["Title"] = "Connexion";
+}
+<style>
+    body {
+        background-image: url('https://jkeducate.b-cdn.net/content/uploads/2024/05/classroom-2093744_1920.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .login-container {
+        max-width: 600px;
+        margin: auto;
+        margin-top: 100px;
+        background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+        .login-container h2 {
+            text-align: center;
+            color: #2c3e50; /* Bleu foncé */
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+    .form-group label {
+        color: #34495e; /* Couleur des étiquettes */
+        font-size: 16px;
+    }
+
+    .form-control {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 12px;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .form-check label {
+        color: #34495e;
+        font-size: 14px;
+    }
+
+    .btn-primary {
+        background-color: #3498db;
+        border: none;
+        border-radius: 5px;
+        padding: 12px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 100%;
+        color: white;
+        cursor: pointer;
+    }
+
+        .btn-primary:hover {
+            background-color: #2980b9; /* Bleu plus foncé au survol */
+        }
+
+    .footer-text {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 14px;
+        color: #7f8c8d; /* Gris clair */
+    }
+
+    .alert {
+        margin-top: 15px;
+        color: #c0392b;
+        background-color: #f2dede;
+        border: 1px solid #ebccd1;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    .form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+    }
+</style>
+
+<div class="login-container">
+    <h2>Connexion à la gestion scolaire</h2>
+
+    <!-- Affichage d'un message d'erreur si nécessaire -->
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert">
+            @TempData["Error"]
+        </div>
+    }
+
+    <form method="post" action="/Home/Login">
+
+
+        <!-- Champ Nom d'utilisateur -->
+        <div class="form-group">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" class="form-control" id="username" name="username" placeholder="Entrez votre nom d'utilisateur" required>
+        </div>
+
+        <!-- Champ Mot de passe -->
+        <div class="form-group">
+            <label for="password">Mot de passe</label>
+            <input type="password" class="form-control" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+        </div>
+
+        <!-- Checkbox 'Se souvenir de moi' -->
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe" name="rememberMe">
+            <label class="form-check-label" for="rememberMe">Se souvenir de moi</label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Se connecter</button>
+    </form>
+
+    <div class="footer-text">
+        <p>  - Gestion Scolaire Innovante</p>
+    </div>
+</div>

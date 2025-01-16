@@ -1,0 +1,135 @@
+﻿@model IEnumerable<tesst.Models.Etudiant>
+
+@{
+    ViewData["Title"] = "Gestion des Étudiants";
+}
+
+<div class="container mt-5">
+    <!-- Titre principal centré -->
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <!-- Formulaire pour ajouter un étudiant -->
+    <h2 class="text-center mb-4">Ajouter un Étudiant</h2>
+    <form asp-action="AjouterEtudiant" method="post">
+        <div class="form-group">
+            <label for="Nom">Nom</label>
+            <input type="text" class="form-control" id="Nom" name="Nom" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Prenom">Prénom</label>
+            <input type="text" class="form-control" id="Prenom" name="Prenom" required />
+        </div>
+
+        <div class="form-group">
+            <label for="DateNaissance">Date de Naissance</label>
+            <input type="date" class="form-control" id="DateNaissance" name="DateNaissance" />
+        </div>
+
+        <div class="form-group">
+            <label for="Adresse">Adresse</label>
+            <input type="text" class="form-control" id="Adresse" name="Adresse" />
+        </div>
+
+        <div class="form-group">
+            <label for="Mail">Email</label>
+            <input type="email" class="form-control" id="Mail" name="Mail" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Tel">Téléphone</label>
+            <input type="text" class="form-control" id="Tel" name="Tel" required />
+        </div>
+
+        <div class="form-group">
+            <label for="CodeClasse">Classe </label>
+            <select class="form-control" id="CodeClasse" name="CodeClasse">
+                <option value="">Choisir une classe</option>
+                @foreach (var classe in ViewBag.Classes as SelectList)
+                {
+                    <option value="@classe.Value">@classe.Text</option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Ajouter</button>
+    </form>
+
+    <hr>
+
+    <!-- Liste des étudiants -->
+    <h3 class="text-center mb-4">Liste des Étudiants</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Email</th>
+                <th>Classe</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var etudiant in Model)
+            {
+                <tr>
+                    <td>@etudiant.Nom</td>
+                    <td>@etudiant.Prenom</td>
+                    <td>@etudiant.Mail</td>
+                    <td>@etudiant.Classe?.NomClasse </td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Etudiant", new { id = etudiant.CodeEtudiant })" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="@Url.Action("Delete", "Etudiant", new { id = etudiant.CodeEtudiant })" class="btn btn-danger btn-sm">Supprimer</a>
+                    </td>
+                   
+                </tr>
+            }
+      
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Style du titre principal */
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    /* Style des titres secondaires */
+    h2, h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: #007bff;
+    }
+
+    /* Espacement et bordure du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+    }
+
+    /* Amélioration de la présentation de la table */
+    .table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd;
+    }
+
+    /* Espacement entre les éléments de la table */
+    .table td, .table th {
+        padding: 12px;
+        text-align: center;
+    }
+</style>

@@ -1,0 +1,442 @@
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\appsettings.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.staticwebassets.runtime.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.staticwebassets.endpoints.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.exe
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.deps.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.runtimeconfig.json
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\mini-projet.pdb
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\source\repos\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.AssemblyInfo.cs
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.RazorAssemblyInfo.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.RazorAssemblyInfo.cs
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\scopedcss\bundle\mini-projet.styles.css
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\scopedcss\projectbundle\mini-projet.bundle.scp.css
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\hyhhodkumy-b9sayid5wm.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\ovt3ry4r6a-61n19gt1b8.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\8bo6uw7y6y-xtxxf3hu2r.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\kckskxhd83-bqjiyaj88i.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\oo605kl6ql-c2jlpeoesf.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\8c811ete4e-erw9l3u2r3.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\0zy18iy8v4-aexeepp0ev.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\l3kgcknaao-d7shbmvgxk.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\54jlnzuz2t-ausgxo2sd3.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\uz1k4uug3v-k8d9w2qqmf.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\tig0ojq2i2-cosvhxvwiu.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\16zqc8qc07-ub07r2b239.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\7yocmslsg4-fvhpjtyr6v.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\ufkq9wwyjs-b7pk76d08c.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\p4d9rv3pof-fsbi9cje9m.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\3npp14pimp-rzd6atqjts.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\y1rxdajx2x-ee0r1s7dh0.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\yp6g5sxqzv-dxx9fxp4il.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\toiob8yb8u-jd9uben2k1.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\uppjxm64dl-khv3u5hwcm.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\pah2agj27e-r4e9w2rdcm.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\lapv1r2hhp-lcd1t2u6c8.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\z78nnao09n-c2oey78nd0.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\4gak4v03i7-tdbxkamptv.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\thn748cub2-j5mq2jizvt.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\q14fn4cqvn-06098lyss8.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\9a5v33m8kh-nvvlpmu67g.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\csxmmuxf9h-s35ty4nyc5.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\lo8eajcgjh-pj5nd1wqec.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\3pnq20ku7b-46ein0sx1k.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\fs10lm5277-v0zj4ognzu.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\m0m6e82ggs-37tfw0ft22.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\ywpgd9aanm-hrwsygsryq.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\pvw9kjcsh2-pk9g2wxc8p.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\2c29yv816x-ft3s53vfgj.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\4z5xoy44uj-6cfz1n2cew.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\i6ciemq1t3-6pdc2jztkx.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\osq5drm16o-493y06b0oq.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\df4y6qr0b1-iovd86k7lj.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\wjrqaodegt-vr1egmr9el.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\g4x09omv9y-kbrnm935zg.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\mk27osho6o-jj8uyg4cgr.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\pq6vraiykv-y7v9cxd14o.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\2f6pyxcj47-notf2xhcfb.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\o24m5ls91e-h1s4sie4z3.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\7lyj58sqg4-63fj8s7r0e.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\sh67aaqmnt-0j3bgjxly4.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\20hyv4x2zu-47otxtyo56.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\8zsa9yvog1-4v8eqarkd7.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\lkpd72yyd6-356vix0kms.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\x3ep8482gw-83jwlth58m.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\yxy42xh5n5-mrlpezrjn3.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\a6bmxi8o21-lzl9nlhx6b.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\xjja5b4t4l-ag7o75518u.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\ggjn5q80oz-x0q3zqp4vz.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\bfyxxp2a5t-0i3buxo5is.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\5olro13wu2-o1o13a6vjx.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\sh4dc6oly8-ttgo8qnofa.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\n7gmxehd5i-2z0ns9nrw6.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\wbsbkyp7q5-muycvpuwrr.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\jxaatunayo-87fc7y1x7t.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\5k7uhvj3ug-mlv21k5csn.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\jhthbka09l-zbai6dk2qg.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\compressed\l17psj7h4f-zbai6dk2qg.gz
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.mini-projet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.mini-projet.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.build.mini-projet.props
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.mini-projet.props
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.mini-projet.props
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-pro.9AED43D0.Up2Date
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.dll
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\refint\mini-projet.dll
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.pdb
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\mini-projet.genruntimeconfig.cache
+C:\Users\Asus\source\repos\tesst\tesst\obj\Debug\net9.0\ref\mini-projet.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\appsettings.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.staticwebassets.endpoints.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.staticwebassets.runtime.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.exe
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.deps.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.runtimeconfig.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\mini-projet.pdb
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.csproj.AssemblyReference.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.AssemblyInfo.cs
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.RazorAssemblyInfo.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.RazorAssemblyInfo.cs
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\scopedcss\bundle\mini-projet.styles.css
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\scopedcss\projectbundle\mini-projet.bundle.scp.css
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\hyhhodkumy-b9sayid5wm.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\ovt3ry4r6a-61n19gt1b8.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\8bo6uw7y6y-xtxxf3hu2r.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\kckskxhd83-bqjiyaj88i.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\oo605kl6ql-c2jlpeoesf.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\8c811ete4e-erw9l3u2r3.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\0zy18iy8v4-aexeepp0ev.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\l3kgcknaao-d7shbmvgxk.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\54jlnzuz2t-ausgxo2sd3.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\uz1k4uug3v-k8d9w2qqmf.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\tig0ojq2i2-cosvhxvwiu.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\16zqc8qc07-ub07r2b239.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\7yocmslsg4-fvhpjtyr6v.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\ufkq9wwyjs-b7pk76d08c.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\p4d9rv3pof-fsbi9cje9m.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\3npp14pimp-rzd6atqjts.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\y1rxdajx2x-ee0r1s7dh0.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\yp6g5sxqzv-dxx9fxp4il.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\toiob8yb8u-jd9uben2k1.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\uppjxm64dl-khv3u5hwcm.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\pah2agj27e-r4e9w2rdcm.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\lapv1r2hhp-lcd1t2u6c8.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\z78nnao09n-c2oey78nd0.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\4gak4v03i7-tdbxkamptv.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\thn748cub2-j5mq2jizvt.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\q14fn4cqvn-06098lyss8.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\9a5v33m8kh-nvvlpmu67g.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\csxmmuxf9h-s35ty4nyc5.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\lo8eajcgjh-pj5nd1wqec.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\3pnq20ku7b-46ein0sx1k.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\fs10lm5277-v0zj4ognzu.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\m0m6e82ggs-37tfw0ft22.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\ywpgd9aanm-hrwsygsryq.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\pvw9kjcsh2-pk9g2wxc8p.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\2c29yv816x-ft3s53vfgj.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\4z5xoy44uj-6cfz1n2cew.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\i6ciemq1t3-6pdc2jztkx.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\osq5drm16o-493y06b0oq.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\df4y6qr0b1-iovd86k7lj.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\wjrqaodegt-vr1egmr9el.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\g4x09omv9y-kbrnm935zg.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\mk27osho6o-jj8uyg4cgr.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\pq6vraiykv-y7v9cxd14o.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\2f6pyxcj47-notf2xhcfb.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\o24m5ls91e-h1s4sie4z3.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\7lyj58sqg4-63fj8s7r0e.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\sh67aaqmnt-0j3bgjxly4.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\20hyv4x2zu-47otxtyo56.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\8zsa9yvog1-4v8eqarkd7.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\lkpd72yyd6-356vix0kms.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\x3ep8482gw-83jwlth58m.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\yxy42xh5n5-mrlpezrjn3.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\a6bmxi8o21-lzl9nlhx6b.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\xjja5b4t4l-ag7o75518u.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\ggjn5q80oz-x0q3zqp4vz.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\bfyxxp2a5t-0i3buxo5is.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\5olro13wu2-o1o13a6vjx.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\sh4dc6oly8-ttgo8qnofa.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\n7gmxehd5i-2z0ns9nrw6.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\wbsbkyp7q5-muycvpuwrr.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\jxaatunayo-87fc7y1x7t.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\5k7uhvj3ug-mlv21k5csn.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\jhthbka09l-zbai6dk2qg.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\compressed\l17psj7h4f-zbai6dk2qg.gz
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.mini-projet.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.mini-projet.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.build.mini-projet.props
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.mini-projet.props
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.mini-projet.props
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-pro.9AED43D0.Up2Date
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\refint\mini-projet.dll
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.pdb
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\mini-projet.genruntimeconfig.cache
+C:\Users\Asus\Desktop\projet .net (Nermine)\tesst\tesst\obj\Debug\net9.0\ref\mini-projet.dll

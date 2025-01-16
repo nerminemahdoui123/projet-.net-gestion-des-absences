@@ -1,0 +1,154 @@
+﻿@model tesst.Models.Classe
+
+<div class="container mt-5">
+    <!-- Titre de la page centré -->
+    <h1 class="text-center mb-4">Ajouter une Classe</h1>
+
+    <!-- Affichage d'un message de succès si la classe a été ajoutée -->
+    @if (ViewBag.Message != null)
+    {
+        <div class="alert alert-success" role="alert">
+            @ViewBag.Message
+        </div>
+        <div class="alert alert-info" role="alert">
+            <strong>Classe ajoutée :</strong> @ViewBag.CreatedClasse.NomClasse <br />
+            <strong>Groupe :</strong> @ViewBag.CreatedClasse.CodeGroupe <br />
+            <strong>Département :</strong> @ViewBag.CreatedClasse.CodeDepartement
+        </div>
+    }
+
+    <!-- Formulaire pour ajouter une classe -->
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="NomClasse">Nom de la Classe</label>
+            <input type="text" class="form-control" id="NomClasse" name="NomClasse" required />
+        </div>
+
+        <div class="form-group">
+            <label for="CodeGroupe">Groupe</label>
+            <select id="CodeGroupe" name="CodeGroupe" class="form-control">
+                @foreach (var groupe in ViewBag.GroupeList as List<tesst.Models.Groupe>)
+                {
+                    <option value="@groupe.CodeGroupe">@groupe.NomGroupe</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="CodeDepartement">Département</label>
+            <select id="CodeDepartement" name="CodeDepartement" class="form-control">
+                @foreach (var departement in ViewBag.DepartementList as List<tesst.Models.Departement>)
+                {
+                    <option value="@departement.CodeDepartement">@departement.NomDepartement</option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Ajouter</button>
+    </form>
+
+    <!-- Affichage des classes ajoutées -->
+    @if (ViewBag.ClassesList != null && ViewBag.ClassesList.Count > 0)
+    {
+        <h3 class="mt-5">Liste des Classes Ajoutées</h3>
+        <table class="table table-bordered mt-3">
+            <thead>
+                <tr>
+                    <th>Nom de la Classe</th>
+                    <th>Groupe</th>
+                    <th>Département</th>
+                    <th>Action</th> <!-- Nouvelle colonne pour les actions -->
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var classe in ViewBag.ClassesList as List<tesst.Models.Classe>)
+                {
+                    <tr>
+                        <td>@classe.NomClasse</td>
+                        <td>@classe.Groupe.NomGroupe</td>
+                        <td>@classe.Departement.NomDepartement</td>
+                        <td>
+                            <!-- Bouton de suppression avec confirmation -->
+                            <button class="btn btn-danger btn-sm" onclick="deleteClasse(@classe.CodeClasse)">Supprimer</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    <script>
+    function deleteClasse(codeClasse) {
+    // Demande de confirmation avant la suppression
+    if (confirm("Êtes-vous sûr de vouloir supprimer cette classe ?")) {
+    $.ajax({
+    url: '/Classe/DeleteClasse',  // URL de la méthode POST
+    type: 'POST',
+    data: {
+    codeClasse: codeClasse
+    },
+    success: function (response) {
+    if (response.success) {
+    alert(response.message);
+    location.reload();  // Recharger la page pour voir les changements
+    } else {
+    alert(response.message);
+    }
+    },
+    error: function () {
+    alert("Une erreur s'est produite.");
+    }
+    });
+    }
+    }
+    </script>
+</div>
+
+
+
+
+
+
+<style>
+    /* Style du titre principal */
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    /* Style du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+
+    /* Espacement et bordure du formulaire */
+    .form-control {
+        border-radius: 0.375rem;
+        box-shadow: none;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+
+    /* Ajout de marges et de bordures pour le formulaire */
+    form {
+        padding: 30px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Styles pour les alertes */
+    .alert {
+        margin-top: 20px;
+    }
+</style>

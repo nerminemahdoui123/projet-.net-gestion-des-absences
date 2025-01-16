@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - test</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/tesst.styles.css" asp-append-version="true" />
+
+    <!-- Style spécifique à la page -->
+    <style>
+        /* Assurez-vous que les éléments de la navbar à droite sont alignés */
+        .navbar-nav.ml-auto {
+            margin-left: auto; /* Cela pousse les éléments de droite à la fin */
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Gestion des absences</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <!-- Lien à gauche ou vide pour occuper l'espace au début -->
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <!-- Liens alignés à droite -->
+                <li class="nav-item">
+                    <a class="nav-link" href="@Url.Action("Index", "Home")">Accueil</a>
+                </li>
+               
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <!-- Vous pouvez ajouter un en-tête ici si nécessaire -->
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody() <!-- Contenu de la page -->
+        </main>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

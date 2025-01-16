@@ -1,0 +1,67 @@
+﻿@model IEnumerable<tesst.Models.User>  
+
+@{
+    ViewData["Title"] = "Créer un utilisateur";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<!-- Formulaire pour créer un utilisateur -->
+<form method="post">
+    <div class="form-group">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" class="form-control" id="username" name="Username" required />
+    </div>
+    <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" class="form-control" id="password" name="Password" required />
+    </div>
+    <div class="form-group">
+        <label for="role">Rôle</label>
+        <select class="form-control" id="role" name="Role" required>
+            <option value="enseignant">Enseignant</option>
+            <option value="utilisateur">Utilisateur</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Créer l'utilisateur</button>
+</form>
+
+<hr>
+
+<!-- Liste des utilisateurs créés -->
+<h3>Utilisateurs existants</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nom d'utilisateur</th>
+            <th>Rôle</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+      
+            @foreach (var user in Model)
+            {
+                <tr>
+                    <td>@user.Username</td>
+                    <td>
+                        @if (user.Role == "enseignant")
+                        {
+                            <span class="badge bg-success">@user.Role</span>
+                        }
+                        else if (user.Role == "utilisateur")
+                        {
+                            <span class="badge bg-info">@user.Role</span>
+                        }
+                    </td>
+                    <td>
+                        <a href="@Url.Action("EditUser", new { id = user.Id })" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="@Url.Action("DeleteUser", new { id = user.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Êtes-vous sûr de vouloir supprimer cet utilisateur?')">Supprimer</a>
+                    </td>
+                </tr>
+            }
+
+        }
+    </tbody>
+</table>

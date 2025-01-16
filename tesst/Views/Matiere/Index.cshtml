@@ -1,0 +1,100 @@
+﻿@model IEnumerable<tesst.Models.Matiere>
+
+<div class="container mt-5">
+    <!-- Titre de la page centré -->
+    <h1 class="text-center mb-4">Gestion des Matières</h1>
+
+    <!-- Formulaire de création de matière -->
+    <h2 class="text-center mb-4">Ajouter une Nouvelle Matière</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="NomMatiere">Nom de la Matière</label>
+            <input type="text" class="form-control" id="NomMatiere" name="NomMatiere" required />
+        </div>
+        <div class="form-group">
+            <label for="NbreHeureCoursParSemaine">Nombre d'heures de Cours par Semaine</label>
+            <input type="number" class="form-control" id="NbreHeureCoursParSemaine" name="NbreHeureCoursParSemaine" required />
+        </div>
+        <div class="form-group">
+            <label for="NbreHeureTDParSemaine">Nombre d'heures de TD par Semaine</label>
+            <input type="number" class="form-control" id="NbreHeureTDParSemaine" name="NbreHeureTDParSemaine" required />
+        </div>
+        <div class="form-group">
+            <label for="NbreHeureTPParSemaine">Nombre d'heures de TP par Semaine</label>
+            <input type="number" class="form-control" id="NbreHeureTPParSemaine" name="NbreHeureTPParSemaine" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Ajouter</button>
+    </form>
+
+    <hr>
+
+    <!-- Liste des matières -->
+    <h3 class="text-center mb-4">Liste des Matières</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nom de la Matière</th>
+                <th>Heures de Cours</th>
+                <th>Heures de TD</th>
+                <th>Heures de TP</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var matiere in Model)
+            {
+                <tr>
+                    <td>@matiere.NomMatiere</td>
+                    <td>@matiere.NbreHeureCoursParSemaine</td>
+                    <td>@matiere.NbreHeureTDParSemaine</td>
+                    <td>@matiere.NbreHeureTPParSemaine</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Style du titre principal */
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    /* Style des titres secondaires */
+    h2, h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: #007bff;
+    }
+
+    /* Espacement et bordure du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+    }
+
+    /* Amélioration de la présentation de la table */
+    .table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd;
+    }
+
+    /* Espacement entre les éléments de la table */
+    .table td, .table th {
+        padding: 12px;
+        text-align: center;
+    }
+</style>

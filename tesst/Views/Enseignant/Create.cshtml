@@ -1,0 +1,182 @@
+﻿@model tesst.Models.Enseignant
+
+@{
+    ViewData["Title"] = "Ajouter un Enseignant";
+}
+
+<div class="container mt-5">
+    <!-- Titre de la page -->
+    <h1 class="text-center mb-4">@ViewData["Title"]</h1>
+
+    <!-- Formulaire de création d'un enseignant -->
+    <h3 class="text-center mb-4">Ajouter un Nouveau Enseignant</h3>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="Nom">Nom</label>
+            <input type="text" class="form-control" id="Nom" name="Nom" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Prenom">Prénom</label>
+            <input type="text" class="form-control" id="Prenom" name="Prenom" required />
+        </div>
+
+        <div class="form-group">
+            <label for="DateRecrutement">Date de Recrutement</label>
+            <input type="date" class="form-control" id="DateRecrutement" name="DateRecrutement" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Adresse">Adresse</label>
+            <input type="text" class="form-control" id="Adresse" name="Adresse" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Mail">Email</label>
+            <input type="email" class="form-control" id="Mail" name="Mail" required />
+        </div>
+
+        <div class="form-group">
+            <label for="Tel">Téléphone</label>
+            <input type="text" class="form-control" id="Tel" name="Tel" required />
+        </div>
+
+        <div class="form-group">
+            <label for="CodeDepartement">Département</label>
+            <select id="CodeDepartement" name="CodeDepartement" class="form-control">
+                @foreach (var departement in ViewBag.DepartementList as List<tesst.Models.Departement>)
+                {
+                    <option value="@departement.CodeDepartement">@departement.NomDepartement</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="CodeGrade">Grade</label>
+            <select id="CodeGrade" name="CodeGrade" class="form-control">
+                @foreach (var grade in ViewBag.GradeList as List<tesst.Models.Grade>)
+                {
+                    <option value="@grade.CodeGrade">@grade.NomGrade</option>
+                }
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Ajouter</button>
+    </form>
+
+    <hr />
+
+    <!-- Liste des Enseignants -->
+    <h2 class="mt-5 text-center">Liste des Enseignants</h2>
+    <table class="table table-bordered table-striped mt-4">
+        <thead>
+            <tr>
+                <th>Nom</th>
+                <th>Prénom</th>
+                <th>Date de Recrutement</th>
+                <th>Adresse</th>
+                <th>Email</th>
+                <th>Téléphone</th>
+                <th>Département</th>
+                <th>Grade</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var enseignant in ViewData["EnseignantsList"] as List<tesst.Models.Enseignant>)
+            {
+                <tr>
+                    <td>@enseignant.Nom</td>
+                    <td>@enseignant.Prenom</td>
+                    <td>@enseignant.DateRecrutement.ToShortDateString()</td>
+                    <td>@enseignant.Adresse</td>
+                    <td>@enseignant.Mail</td>
+                    <td>@enseignant.Tel</td>
+                    <td>@enseignant.Departement?.NomDepartement</td>
+                    <td>@enseignant.Grade?.NomGrade</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Enseignant", new { id = enseignant.CodeEnseignant })" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="@Url.Action("Delete", "Enseignant", new { id = enseignant.CodeEnseignant })" class="btn btn-danger btn-sm">Supprimer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Style du titre principal */
+    h1, h2, h3 {
+        color: #343a40;
+        font-weight: bold;
+    }
+
+    /* Espacement autour des titres */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2, h3 {
+        font-size: 1.8rem;
+    }
+
+    /* Style du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+        padding: 12px;
+        font-size: 1.2rem;
+    }
+
+    .btn-sm {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+
+    /* Style des champs de saisie */
+    .form-control {
+        border-radius: 0.375rem;
+        box-shadow: none;
+    }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+        }
+
+    /* Amélioration de l'apparence du tableau */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+        table th, table td {
+            text-align: center;
+            padding: 10px;
+        }
+
+        table th {
+            background-color: #007bff;
+            color: #fff;
+        }
+
+        table tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+
+        table tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        table a {
+            text-decoration: none;
+        }
+
+            table a:hover {
+                text-decoration: underline;
+            }
+</style>

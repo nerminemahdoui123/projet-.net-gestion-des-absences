@@ -1,0 +1,87 @@
+﻿@model IEnumerable<tesst.Models.Departement>
+
+<div class="container mt-5">
+    <!-- Titre de la page centré -->
+    <h1 class="text-center mb-4">Gestion des Départements</h1>
+
+    <!-- Formulaire de création de département -->
+    <h2 class="text-center mb-4">Créer un Nouveau Département</h2>
+    <form asp-action="Create" method="post">
+        <div class="form-group">
+            <label for="NomDepartement">Nom du Département</label>
+            <input type="text" class="form-control" id="NomDepartement" name="NomDepartement" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Créer</button>
+    </form>
+
+    <hr>
+
+    <!-- Liste des départements -->
+    <h3 class="text-center mb-4">Liste des Départements</h3>
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Nom du Département</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var departement in Model)
+            {
+                <tr>
+                    <td>@departement.NomDepartement</td>
+                    <td>
+                        <a href="@Url.Action("Edit", "Departement", new { id = departement.CodeDepartement })" class="btn btn-warning btn-sm">Modifier</a>
+                        <a href="@Url.Action("Delete", "Departement", new { id = departement.CodeDepartement })" class="btn btn-danger btn-sm">Supprimer</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<style>
+    /* Style du titre principal */
+    h1 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        color: #343a40;
+    }
+
+    /* Style des titres secondaires */
+    h2, h3 {
+        font-size: 1.8rem;
+        font-weight: normal;
+        color: #007bff;
+    }
+
+    /* Espacement et bordure du formulaire */
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+    /* Style des boutons */
+    .btn-block {
+        width: 100%;
+    }
+
+    /* Amélioration de la présentation de la table */
+    .table {
+        margin-top: 20px;
+        border-collapse: collapse;
+    }
+
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: #f9f9f9;
+    }
+
+    .table-bordered th, .table-bordered td {
+        border: 1px solid #ddd;
+    }
+
+    /* Espacement entre les éléments de la table */
+    .table td, .table th {
+        padding: 12px;
+        text-align: center;
+    }
+</style>

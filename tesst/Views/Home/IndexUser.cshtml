@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Gestion Scolaire</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Personnalisation de la sidebar */
+        .sidebar {
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            background-color: #343a40;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+            /* Liste de liens dans la sidebar */
+            .sidebar a {
+                color: white;
+                padding: 10px 15px;
+                text-decoration: none;
+                display: block;
+                font-weight: bold;
+                transition: background-color 0.3s ease, color 0.3s ease;
+            }
+
+                /* Hover effect pour les liens */
+                .sidebar a:hover {
+                    background-color: #575757;
+                    color: white;
+                }
+
+            /* Liste d'éléments dans la sidebar */
+            .sidebar ul {
+                padding-left: 0;
+                list-style: none;
+            }
+
+            /* Espace entre les éléments de la sidebar */
+            .sidebar .nav-item {
+                margin-bottom: 10px;
+            }
+
+        /* Main Content */
+        .main-content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        /* Card */
+        .card-title {
+            font-size: 1.5rem;
+        }
+
+        /* Forcer les cartes à avoir la même hauteur */
+        .card {
+            display: flex;
+            flex-direction: column; /* Aligner les éléments verticalement */
+            height: 100%; /* Assurez-vous que la carte prend toute la hauteur de son conteneur */
+        }
+
+        /* Aligner les boutons au bas de chaque carte */
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            height: 100%; /* Assurez-vous que la carte prend toute la hauteur */
+        }
+
+            /* S'assurer que tous les boutons sont à la même position */
+            .card-body .btn {
+                width: 100%; /* Le bouton occupe toute la largeur de la carte */
+                margin-top: auto; /* Le bouton est poussé vers le bas */
+            }
+
+        /* Personnalisation du bouton Déconnecter */
+        .sidebar .deconnecter-btn {
+            background-color: white;
+            color: black;
+            border: 2px solid black; /* Encadrer le bouton en noir */
+            padding: 12px 20px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            display: block;
+            width: 100%;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            .sidebar .deconnecter-btn:hover {
+                background-color: #f1f1f1;
+                color: black;
+            }
+
+        /* Espace en bas de la sidebar pour garder le bouton en bas */
+        .sidebar .deconnecter-btn-container {
+            margin-top: auto;
+            padding: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h4 class="text-white text-center">Gestion Scolaire</h4>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Create", "Absence")">Fiches des absences</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="@Url.Action("Search", "Absence")">Recherche des absences</a>
+            </li>
+        </ul>
+        <div class="deconnecter-btn-container">
+            <button class="deconnecter-btn" onclick="location.href='@Url.Action("Logout", "Home")'">Déconnecter</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container mt-5">
+            <h1 class="text-center">Bienvenue dans le système de gestion scolaire</h1>
+
+            <!-- Exemple de card avec Bootstrap -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Gestion des Absences</h5>
+                            <p class="card-text">Consulter et ajouter des fiches d'absences des étudiants.</p>
+                            <a href="@Url.Action("Create", "Absence")" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Recherche des absences</h5>
+                            <p class="card-text">Rechercher les différentes absences des étudiants</p>
+                            <a href="@Url.Action("Search", "Absence")" class="btn btn-primary">Voir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
