@@ -16,6 +16,8 @@ Cette application permet une gestion simplifiée des absences des étudiants, av
 -Pour l'administrateur : Il peut gérer les matières, les classes, et les enseignants. Il est responsable de la configuration et de l'organisation des données pour assurer un suivi efficace des absences.
 
 -Pour les enseignants : Ils peuvent enregistrer et suivre les absences des étudiants par matière, en fonction des classes auxquelles ils appartiennent. L'application permet de rechercher facilement les absences, avec des options pour consulter les détails spécifiques à chaque absence.
-Application de Gestion des Absences des Étudiants
+Application de Gestion des Absences des Étudiants.
+
+
 Les principales fonctionnalités de l'application incluent la gestion des absences, l'enregistrement des étudiants, des enseignants, des matières, des classes, et des départements. L'application repose sur un système de base de données relationnelle avec Entity Framework Core pour faciliter la gestion des entités
 
